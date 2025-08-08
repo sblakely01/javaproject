@@ -1,9 +1,54 @@
 <!doctype html>
 <head>
+    <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
     <script src="game.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="gameArea">
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="scores">
+            <div class="humanScoreArea">
+                <h3>Your Score</h3>
+                <div class="scoreAmount">
+                    <div id="yourScore">0</div>
+                </div>
+            </div>
+            <div class="computerScoreArea">
+                <h3>Computer Score</h3>
+                <div class="scoreAmount">
+                    <div id="computerScore">0</div>
+                </div>
+            </div>
+        </div>
+        <div class="round">
+            <p>Choose your weapon!</p>
+            <div class="emojiBoard">
+                <div id="humanChoice">
 
+                </div>
+                <div>Vs</div>
+                <div id="computerChoice">
+
+                </div>
+            </div>
+            <div id="roundCounter">
+                <p>Round 0 of 3</p>
+            </div>
+            <div class="gameButtons">
+                <button id="rockButton">Rock</button>
+                <button id="paperButton">Paper</button>
+                <button id="scissorButton">Scissors</button>
+            </div>
+        </div>
+        <div class="reset">
+            <button id="resetButton">Reset</button>
+        </div>
+        <div class="status">
+            <div id="roundStatusText"></div>
+            <div id="gameStatusText"></div>
+        </div>
+    </div>
 </body>
 </html>

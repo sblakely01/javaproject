@@ -1,0 +1,104 @@
+body {
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gameArea {
+    background-color: lightslategray;
+    max-width: 800px;
+    margin: auto;
+    border: mintcream;
+    border-radius: 3px;
+    border-style: dashed;
+    justify-items: center;
+}
+
+h1 {
+    font-family: cursive;
+    color: darkolivegreen;
+    font-size: 50px;
+}
+
+.scores {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+    width: 60%;
+}
+
+.humanScoreArea, 
+.computerScoreArea {
+    flex: auto;
+    background-color: antiquewhite;
+    margin: 30px;
+    border-radius: 2px;
+    border-color: mintcream;
+    border-style: groove;
+    width: 30%;
+    justify-items: center;
+}
+
+.emojiBoard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    font-size: 64px;
+    margin: 10px;
+}
+
+.round {
+    justify-items: center;
+    font-size: 30px;
+    color: lemonchiffon;
+    width: 60%;
+}
+
+.status {
+    margin: 30px;
+    justify-items: center;
+}
+
+#roundStatusText {
+    font-size: 30px;
+    color: lemonchiffon;
+}
+
+#gameStatusText {
+    font-size: 45px;
+    color:darkblue ;
+}
+
+.gameButtons {
+    padding: 25px;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#rockButton,
+#paperButton,
+#scissorButton {
+    flex: auto;
+    height: 64px;
+    width: 80px;
+    background-color: bisque;
+    margin: 10px;
+    font-size: 30px;
+    border-color: cadetblue;
+}
+
+#resetButton {
+    width: 90px;
+    height: 50px;
+    background-color: burlywood;
+    border-color: cadetblue;
+    font-size: 25px;
+}
+
+.scoreAmount {
+    font-size: 30px;
+}
