@@ -89,6 +89,17 @@ h1 {
     margin: 10px;
     font-size: 30px;
     border-color: cadetblue;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+#rockButton:hover,
+#paperButton:hover,
+#scissorButton:hover,
+#rockButton:focus,
+#paperButton:focus,
+#scissorButton:focus  {
+    background-color: cadetblue; 
 }
 
 #resetButton {
@@ -97,8 +108,32 @@ h1 {
     background-color: burlywood;
     border-color: cadetblue;
     font-size: 25px;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+#resetButton:hover {
+    background-color: coral;
 }
 
 .scoreAmount {
     font-size: 30px;
+}
+
+.portfolioButton {
+    position: absolute;
+    margin: 4px;
+    color: black;
+    background-color: burlywood;
+    transition-property: background-color;
+    transition-duration: 1s;
+    width: 120px;
+    height: 35px;
+    align-content: center;
+    text-align: center;
+}
+
+.portfolioButton:hover,
+.portfolioButton:focus {
+    background-color: cadetblue;    
 }
